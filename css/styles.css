@@ -13,6 +13,9 @@ h2 {
 header h2 {
     color: #CEC8FF;
 }
+a{
+    text-decoration: none;
+}
 
 .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
@@ -43,4 +46,36 @@ header h2 {
 
 .text-area{
     margin-right: 70px;
+}
+.anchor{
+    font-size: large;
+    
+}
+
+.position{
+    position: absolute;
+    right: 10%;
+    top: 6%;
+    
+}
+
+@media  (max-width:800px){
+
+    .position{
+        position: relative;
+        width: 47%;
+        margin-left: 70px;
+    }
+}
+/*
+.anchor-div{
+    width: 125%;
+    
+}
+.amcor{
+    height: 40px;
+}*/
+
+#numCampers{
+    width: 99%;
 }
