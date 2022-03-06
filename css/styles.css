@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -58,7 +59,9 @@ a{
     top: 6%;
     
 }
-
+.opt{
+    line-height: 2;
+}
 @media  (max-width:800px){
 
     .position{
