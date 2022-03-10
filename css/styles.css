@@ -52,6 +52,7 @@ a {
 
 @media (max-width: 800px) {
   body {
+    background-color: red;
     font-family: "Open Sans", sans-serif; }
   h1, h2, h3 {
     font-family: "Lobster", cursive; }
